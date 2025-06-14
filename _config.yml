@@ -1,0 +1,40 @@
+# GitHub Pages Configuration for Takusan Player Website
+
+# Site settings
+title: "Takusan Player"
+description: "High-performance multi-video player for Apple Vision Pro"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://yourusername.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# GitHub Pages plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Include files
+include:
+  - _redirects
+
+# Custom variables
+author: "Takusan Player Team"
+email: "support@takusanplayer.com"
+github_username: "yourusername"
+
+# SEO
+lang: en
+timezone: UTC
